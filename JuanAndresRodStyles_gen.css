@@ -1,0 +1,37 @@
+.lista-menu-izq {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #7395AE;
+}
+li.menu-izq {
+		float: none;
+}
+.lista-menu-der {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #7395AE;
+}
+li.menu-der {
+		float: none;
+}
+li a.a-menu-der {
+	display: block;
+	color: white;
+	text-align: left;
+	padding: 16px;
+	text-decoration: none;	
+}
+li a.a-menu-izq {
+	display: block;
+	color: white;
+	text-align: right;
+	padding: 16px;
+	text-decoration: none;	
+}
+li a:hover {
+	background-color: #557A95;
+}

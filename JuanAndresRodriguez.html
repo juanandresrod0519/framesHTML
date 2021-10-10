@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <title>5G - Juan Andres Rodriguez</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> <!-- compatible con Chr, FF, O, Saf, Edge -->
+	<meta name="description" content="Juan Andres Rodriguez pagina de 5G"> <!-- compatible con Chr, FF, O, Saf, Edge -->
+	<!-- en lugar de usar un archivo .css adjunto, prefiero usar In-line CSS, solamente para evitar subir mas de 1 archivo -->
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #292929;
+            font: 90% Roboto, Arial, sans-serif;
+            font-weight: 300;
+        }
+
+        p {
+            padding: 0 10px;
+            line-height: 1.8;
+        }
+
+        ul li {
+            padding-right: 10px;
+            line-height: 1.6;
+        }
+
+        h3 {
+            padding: 5px 20px;
+            margin: 0;
+        }
+
+        div#encabezado {
+            position: relative;
+        }
+
+        div#encabezado h1 {
+            height: 80px;
+            line-height: 80px;
+            margin: 0;
+            padding-left: 10px;
+            background: #e0e0e0;
+            color: #292929;
+        }
+
+        div#encabezado a {
+            position: absolute;
+            right: 0;
+            top: 23px;
+            padding: 10px;
+            color: #006;
+        }
+
+        div#nav {
+            background: #7cb71c;
+        }
+
+        div#nav li {
+            list-style: none;
+        }
+
+        div#extra {
+            background: #147FA9;
+        }
+
+        div#pieDPag {
+            background: #42444e;
+            color: #fff;
+			clear: left;
+            width: 100%;
+			padding: 10px;
+        }
+
+        div#pieDPag p {
+            padding: 20px 10px;
+        }
+
+        div#wrapper {
+            float: left;
+            width: 100%;
+        }
+
+        div#content {
+            margin: 0 25%;
+        }
+
+        div#nav {
+            float: left;
+            width: 25%;
+            margin-left: -100%;
+        }
+
+        div#extra {
+            float: left;
+            width: 25%;
+            margin-left: -25%;
+        }
+		
+		div#pieDPag a:link{
+			color: blue;
+		}
+		div#pieDPag a:visited{
+			color: red;
+		}
+		div#pieDPag a:active{
+			color: DarkSlateBlue;
+		}
+    </style>
+</head>
+<body>
+<!-- En lugar de usar frames, voy a usar divs-->
+<!-- La razon es que en mi opinion divs son mas transportables entre multiples browsers (yo en particular probé con Edge, Chrome y Opera-->
+<!-- Trato de evitar la generacion de scrolls internos en la pagina -->
+<!-- Por la misma razon que uso para esta tarea In-lineCSS, es decir tener todo el contenido en una sola pagina, uso divs para no dividir el codigo html -->
+<!-- Por razones de tener la pagina preparada para queries js, dejo Id en la etiquetas a pesar que no es extrictamente necesario -->
+<div id="container">
+    <div id="encabezado">
+        <h1>Juan Andres Rodriguez</h1>
+        <!--<a href="/download/template/1" target="_blank">download this layout</a>-->
+    </div>
+    <div id="wrapper">
+        <div id="content">
+            <h3>Comunicaciones 5G</h3>
+            <p>Bacon ipsum dolor amet turkey spare ribs doner venison ham. Shankle leberkas burgdoggen turkey bresaola, pastrami biltong cow salami short loin shank filet mignon ground round doner. Shank kielbasa biltong bacon, spare ribs ground round meatball fatback picanha turkey swine strip steak cow chicken ball tip. Cow swine ground round, drumstick cupim prosciutto picanha tongue andouille flank beef ribs pork.
+            </p>
+            <p>T-bone chicken beef capicola short ribs. Chislic rump jerky short ribs bresaola t-bone ball tip cow shankle. Andouille shank rump, leberkas ham meatball pig strip steak turducken tail tongue prosciutto jowl buffalo hamburger. Shoulder short ribs drumstick chislic pig buffalo porchetta burgdoggen kevin biltong beef ribs. Short loin turkey capicola picanha bacon jerky tail leberkas ham hock biltong venison fatback tongue.
+            </p>
+            <p>Buffalo beef doner pig, chislic kielbasa ball tip leberkas pork chop ham shank pancetta alcatra. Buffalo short loin swine meatball sirloin cupim boudin pork belly picanha. Filet mignon pork loin spare ribs buffalo bresaola tongue. Rump prosciutto shoulder brisket. Alcatra pork ribeye kevin, chuck pancetta capicola drumstick ball tip. Pork kielbasa tenderloin fatback shank. Porchetta spare ribs short loin, swine cupim pork belly tri-tip ground round drumstick ham hock chislic pancetta alcatra fatback shankle.
+            </p>
+        </div>
+    </div>
+    <div id="nav">
+        <h3>5G</h3>
+        <ul>
+            <li><a href="/download/template/1" target="_blank">Link-1</a></li>
+            <li><a href="/download/template/1" target="_blank">Link-2</a></li>
+        </ul>
+        <h3>Proyectos personales (en construccion)</h3>
+        <ul>
+            <li>Proyectos de prueba<a href="https://github.com/juanandresrod0519" target="_blank">Mi GitHub</a></li>
+        </ul>
+    </div>
+    <div id="extra">
+        <h3>Referencias:</h3>
+        <ul>
+            <li><a href="https://www.w3schools.com/html" target="_blank">W3 Schools</a></li>
+            <li><a href="https://baconipsum.com/" target="_blank">Generador de texto aleatorio</a></li>
+        </ul>
+    </div>
+    <div id="pieDPag">
+		<h3>Contactame</h3>
+		<address>
+				Email <a href="mailto:webmaster@example.com">Juan Andres Rodriguez</a>.<br> 
+		</address> 
+    </div>
+</div>
+</body>
+</html>
